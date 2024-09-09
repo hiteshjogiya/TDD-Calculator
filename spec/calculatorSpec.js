@@ -1,7 +1,7 @@
 describe("calculator.js", function () {
   it("large amount of number", function () {
     let result = add("1\n2,3000000000,4124234");
-    expect(result).toBe(3004124234);
+    expect(result).toBe(3004124237);
   });
   it("/n in string", function () {
     let result = add("1\n2,3");
